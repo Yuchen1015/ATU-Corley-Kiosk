@@ -1,0 +1,176 @@
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px; 
+  padding: 20px;
+  padding-top: 100px; 
+}
+
+.back-arrow {
+  position: absolute;
+  top: 190px;
+  left: 20px;
+  text-decoration: none;
+  font-size: 2.5em;
+  color: #007bff;  
+  z-index: 10;
+}
+
+.back-arrow:hover {
+  color: #ffcd2b;
+}
+
+body {
+  background-image: url(backBackground.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  color: #0eb833;
+  }
+header{
+  background-color:rgba(11, 58, 53);
+  width: 100vw;
+  height: 80px;
+  position: absolute;
+  top :0;
+  display: flex;
+  align-items: center;
+}
+h1 {
+  background-color:rgba(11, 58, 53, 0.9);
+  color: #ffffff;
+  padding: 20px;
+  margin: 0;
+  margin-top: 100px; 
+  text-align: center;
+  font-size: 39px;
+}
+.button-link {
+display: block;
+width: 100%;
+height: 100%;
+text-align: center;
+line-height: 65px; 
+color: white;
+text-decoration: none;
+}
+.buttonContainer{
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 20px;
+width: 80%;
+max-width: 600px;
+
+}
+button {
+   width: 100%;
+  height: 100px;      
+          padding: 15px 30px;
+          font-size: 19px;
+          cursor: pointer;
+          border: none;
+          border-radius: 5px;
+          color: white;
+          background-color: rgba(11, 58, 53, 0.9);
+          text-align: left;
+
+}
+button.selected {
+background-color: #0077FF;  
+color: white;
+}
+
+.floor-link {
+  flex: 0 1 calc(25% - 20px);
+  display: inline-block; 
+  padding: 10px 20px;
+  background-color:rgba(11, 58, 53, 0.9);
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none; 
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+
+.floor-link:hover {
+  background-color: #ffcd2b;
+}
+
+button:hover {
+  background-color: #ffcd2b; 
+}
+
+
+#logo {
+width: 265px;
+height: auto;
+}
+
+footer {
+  background-color: #343a40;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  box-shadow: 0 -2px 5px rgba(11, 58, 53, 0.9);
+  clear: both;
+}
+
+.nav-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 70px;
+  margin: 10px; /* Adjust as needed */
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block; /* Center the buttons if footer text-align is center */
+}
+
+.nav-button:hover {
+  background-color: #ffcd2b;
+}
+
+.classroom-image {
+  width: 100%;  /* Make the image responsive */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Display block to avoid inline extra space */
+  margin-bottom: 10px; /* Space between image and button */
+}
+.button-link button {
+width: 100%; /* Set button width */
+padding: 10px;
+border: none;
+border-radius: 5px;
+background-color: rgba(11, 58, 53, 0.9);
+color: white;
+cursor: pointer;
+text-align: center;
+}
+
+.button-link button:hover {
+background-color: #ffcd2b; /* Highlight color on hover */
+}
+
+.button-link .classroom-image {
+width: 100%; /* Ensure the image takes the full width of the button */
+height: auto; /* Maintain aspect ratio */
+border-radius: 5px; /* Optional: if you want rounded corners */
+}
+
+.button-link .classroom-description {
+display: block; /* Ensures the text appears below the image */
+margin-top: 5px; /* Space between image and text */
+font-size: 1.2em; /* Adjust the size as necessary */
+color: #ffffff; /* Text color */
+
+}
+

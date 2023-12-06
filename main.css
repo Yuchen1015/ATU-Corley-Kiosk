@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background-color: rgba(11, 58, 53, 0.9);
+  width: 100%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  padding: 0 50px;
+}
+
+#logo {
+  width: 265px;
+  height: auto;
+}
+
+.intro {
+  text-align: center;
+  padding: 30px;
+  background-color: #fff;
+}
+h1{
+  font-size: 3em;
+}
+.button-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+button {
+  font-size: 20px;        /* Increase font size */
+  padding: 20px 40px;     
+  width: auto; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.faculty-btn {
+  background-color: #2d2d2d;
+  color: white;
+}
+
+.faculty-btn:hover {
+  background-color: #ffcd2b;
+}
+
+.halls-btn {
+  background-color: #2d2d2d;
+  color: white;
+}
+
+.halls-btn:hover {
+  background-color: #ffcd2b;
+}
+
+
+#floor-plan {
+  width: 100%; 
+  max-width: 800px; 
+  display: block; 
+  margin: 0 auto; 
+  border: 1px solid #ccc;
+}
+
+
+.map-display {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+.map-display button {
+  display: block;
+  font-size: 20px;        /* Increase font size */
+  padding: 20px 40px;     
+  width: 30%; 
+  margin: 20px auto;
+  background-color: #2d2d2d;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.map-display button:hover {
+  background-color: #ffcd2b;
+}
+
+#map {
+  width: 100%;
+  height: 400px;
+  background-color: #eaeaea; /* Placeholder color */
+}
+.carousel {
+  position: relative;
+}
+
+.carousel-img {
+  width: 75%; /* or your desired width */
+  display: none;
+  margin: 0 auto;
+}
+
+.carousel-img:first-child {
+  display: block;
+}
+
+#directions {
+  margin-top: 20px;
+}
+
+.details {
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.faculty-details, .hall-details {
+  flex: 1;
+  margin: 0 10px;
+  text-align: center;
+}
+
+
+.hall-details img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+}

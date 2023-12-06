@@ -1,0 +1,47 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATU Corley Kiosk</title>
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+
+<body>
+    <header>
+        <img src="atuLogo.png" alt="ATU Logo" id="logo">
+    </header>
+
+    <main>
+        <!-- Welcome Screen -->
+        <section class="intro">
+            <h1>Welcome to Corley Hall</h1>
+            <div class="button-container">
+                <a href="departments.HTML">
+                    <button class="faculty-btn">Departments</button>
+                </a>
+                <a href="classRoomFirst.html">
+                    <button class="halls-btn">Lecture Halls</button>
+                </a>
+            </div>
+        </section>
+        
+        <!-- Map Display -->
+        <section class="map-display">
+            <div class="carousel">
+                <img src="Corley1stFloorPic.png" alt="Corley Hall Floor Plan 1" class="carousel-img">
+                <img src="Corley2ndFloorPic.PNG" alt="Corley Hall Floor Plan 2" class="carousel-img">
+            </div>
+            <button onclick="showFirstFloor()">First Floor</button>
+            <button onclick="showSecondFloor()">Second Floor</button>
+
+        </section>
+        
+    </main>
+    <script src="classRoomFirst.js"></script>
+</body>
+
+
+
+</html>
